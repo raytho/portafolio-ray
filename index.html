@@ -138,11 +138,23 @@
         </div>
     </footer>
     <script>
+        const ipad = window.matchMedia('screen and (max-width: 767px)')
         const menu = document.querySelector('.menu');
         const burguerMenu = document.querySelector('#burguer-menu')
-        console.log(menu);
-        console.log(burguerMenu);
         burguerMenu.addEventListener('click', hideShow);
+
+        ipad.addListener(validation);
+
+        function validation(event) {
+            if(event.matches) {
+                burguerMenu.addEventListener('click', hideShow);
+            }
+            else {
+                burguerMenu.removeEventListener('click', hideShow); 
+            }
+        }
+
+        validation(ipad);
 
         function hideShow() {
             if(menu.classList.contains('is-active'))
