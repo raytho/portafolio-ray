@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <i class="icon-menu burguer-button" id="burguer-menu"></i>
     <header class="header">
         <div class="container">
             <figure class="logo">
@@ -136,6 +137,23 @@
             </div>
         </div>
     </footer>
-</body>
+    <script>
+        const menu = document.querySelector('.menu');
+        const burguerMenu = document.querySelector('#burguer-menu')
+        console.log(menu);
+        console.log(burguerMenu);
+        burguerMenu.addEventListener('click', hideShow);
 
+        function hideShow() {
+            if(menu.classList.contains('is-active'))
+            {
+                menu.classList.remove('is-active');
+            }
+            else
+            {
+                menu.classList.add('is-active');
+            }
+        }
+    </script>
+</body>
 </html>
