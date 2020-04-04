@@ -84,16 +84,16 @@ h1 {
 }
 
 h1 strong {
-    color: #65A8D2;
+    color: #94D6FF;
 }
 
 h2 {
-    color: #65A8D2;
+    color: #64A7D1;
     text-transform: uppercase;
 }
 
 .portfolio {
-    background-color: #FAFAFA;
+    background-color: rgb(119, 119, 119, 0.3);
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     font-weight: bold;
@@ -106,7 +106,7 @@ h2 {
     border-radius: 5px;
     margin-bottom: 15px;
     padding: 20px;
-    background: white;
+    background-color: #FAFAFA;
     display: flex;
     align-items: center; /*alineacion vertical */
     justify-content: space-between;
@@ -341,6 +341,7 @@ figure {
     }
     .portfolio {
         padding: 0;
+        
     }
     .container {
         padding: 0 1em;
