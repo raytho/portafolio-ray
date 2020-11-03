@@ -74,7 +74,7 @@ h6
 }
 
 h1 {
-    font-size: 40px; /*Tamaño de la fuente*/
+    font-size: 20px; /*Tamaño de la fuente*/
     line-height: 1.5em; /*Espaciado entre lineas*/
     letter-spacing: -.2px; /*Espaciado entre letras*/
     text-transform: none; /*Forma de letras: Mayusculas, minusculas, etc*/
@@ -101,7 +101,8 @@ h2 {
     margin-bottom: 40px;
 }
 h6 {
-    line-height: 0.5em; /*Espaciado entre lineas*/
+    font-size: 20px; /*Tamaño de la fuente*/
+    line-height: 1.5em; /*Espaciado entre lineas*/
     letter-spacing: -.2px; /*Espaciado entre letras*/
     text-transform: none; /*Forma de letras: Mayusculas, minusculas, etc*/
     text-decoration: dashed; /*tipos de subrayado*/
